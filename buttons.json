@@ -1,0 +1,100 @@
+[
+    [
+        {
+            "color": "red",
+            "panel_button": "CHANNELDOWN"
+        },
+        {
+            "color": "red",
+            "panel_button": "CHANNEL"
+        },
+        {
+            "color": "red",
+            "panel_button": "CHANNELUP"
+        }
+    ],
+    [
+        {
+            "color": "green",
+            "panel_button": "PREVIOUS"
+        },
+        {
+            "color": "green",
+            "panel_button": "NEXT"
+        },
+        {
+            "color": "green",
+            "panel_button": "PLAYPAUSE"
+        }
+    ],
+    [
+        {
+            "color": "blue",
+            "panel_button": "VOLUMEDOWN"
+        },
+        {
+            "color": "blue",
+            "panel_button": "VOLUMEUP"
+        },
+        {
+            "color": "purple",
+            "panel_button": "EQUAL"
+        }
+    ],
+    [
+        {
+            "color": "black",
+            "panel_button": "0"
+        },
+        {
+            "color": "black",
+            "panel_button": "100PLUS"
+        },
+        {
+            "color": "black",
+            "panel_button": "200PLUS"
+        }
+    ],
+    [
+        {
+            "color": "black",
+            "panel_button": "1"
+        },
+        {
+            "color": "black",
+            "panel_button": "2"
+        },
+        {
+            "color": "black",
+            "panel_button": "3"
+        }
+    ],
+    [
+        {
+            "color": "black",
+            "panel_button": "4"
+        },
+        {
+            "color": "black",
+            "panel_button": "5"
+        },
+        {
+            "color": "black",
+            "panel_button": "6"
+        }
+    ],
+    [
+        {
+            "color": "black",
+            "panel_button": "7"
+        },
+        {
+            "color": "black",
+            "panel_button": "8"
+        },
+        {
+            "color": "black",
+            "panel_button": "9"
+        }
+    ]
+]
