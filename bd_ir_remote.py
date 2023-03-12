@@ -1,9 +1,9 @@
 from bluedot import BlueDot
 from gpiozero import LED
 from signal import pause
-import json, subprocess
+import json, subprocess, os
 
-f = open('buttons.json')
+f = open(os.path.expanduser("~") + '/buttons.json')
 buttons_json = json.load(f)
 f.close()
 
@@ -20,7 +20,7 @@ for button in bd.buttons:
   color = buttons_json[button.row][button.col]['color']
   print("Setting " + str(button.col) + "." + str(button.row) + " " + color)
   button.color = color
-  
+
 def run_cmd(cmd, params):
     command = cmd + " " + params
     print("-------------------------------------- running: " + command)
